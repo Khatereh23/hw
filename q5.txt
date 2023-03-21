@@ -1,0 +1,7 @@
+The value of variable a will not change after calling the function increment_int_a. Because, the function is called as a call by value. So, when the function is called a copy of variable a will be passed to function and the changes will be done to that copy which will not reflect to the original variable a.
+
+The value of element of list b will be change after calling the function increment_int_b. As, when a mutable object is passed to a function it is passed as a call by reference which means the value pass to the function wilreferce to the same location of the original object hence changes made inside the function will also change the original object.
+
+
+
+ 
